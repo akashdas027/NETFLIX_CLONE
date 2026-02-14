@@ -111,7 +111,7 @@ nav button {
     width: 300px;
     border: none;
     font-size: 16px;
-    background-color: #2923233d;
+    background-color: #29232310;
     border: 1px solid white;
     border-radius: 10px;
   }
@@ -131,4 +131,61 @@ nav button {
     margin-right: 2000px;
     width: 100%;
   }
-  
+  .netflix-footer {
+  background-color: #00000000;
+  color: #d6cece;
+  padding: 50px 10%;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-top {
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+
+.footer-top span {
+  cursor: pointer;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.footer-links a {
+  color: #f3e2e2;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.language-select {
+  width: 150px;
+  padding: 8px;
+  background: #00000018;
+  color: #ddd1d1;
+  border: 1px solid #33333328;
+  border-radius: 3px;
+  border: 1px solid white ;
+}
+
+.country-text {
+  font-size: 14px;
+  color: #757575;
+}
